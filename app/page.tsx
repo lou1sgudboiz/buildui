@@ -1,6 +1,7 @@
 import { Button } from "@/components/buildui/button";
 import { Badge } from "@/components/buildui/badge";
 import { ThemeToggle } from "@/components/theme-toggle";
+import { Switch } from "@/components/buildui/switch";
 import {
   AlertCircle,
   BadgeCheck,
@@ -90,6 +91,13 @@ export default function Home() {
               <Timer className="size-3" />
               Pending
             </Badge>
+          </div>
+          <h3 className="text-amber-400 font-mono text-lg">Switch</h3>
+          <div className="flex flex-wrap gap-4 justify-center items-center">
+            <Switch />
+            <span>Default</span>
+            <Switch disabled />
+            <span>Disabled</span>
           </div>
         </div>
       </main>
