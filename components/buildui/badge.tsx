@@ -22,9 +22,12 @@ const badgeVariants = cva(
       shape: {
         square: "",
         round: "rounded-full",
-        triangle: "badge-shape-triangle",
-        "ribbon-1": "badge-shape-ribbon-1",
-        "ribbon-2": "badge-shape-ribbon-2",
+        triangle:
+          "[clip-path:polygon(10px_0%,calc(100%-10px)_0%,100%_50%,calc(100%-10px)_100%,10px_100%,0%_50%)]",
+        "ribbon-1":
+          "[clip-path:polygon(0px_0%,calc(100%-10px)_0%,100%_50%,calc(100%-10px)_100%,0px_100%,0%_50%)]",
+        "ribbon-2":
+          "[clip-path:polygon(0_0,calc(100%-10px)_0,100%_50%,calc(100%-10px)_100%,0_100%,10px_50%)]",
       },
     },
     defaultVariants: {
