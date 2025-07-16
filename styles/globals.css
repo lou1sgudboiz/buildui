@@ -1,6 +1,5 @@
 @import "tailwindcss";
 @import "tw-animate-css";
-@import "./buildui/badge.css";
 
 @custom-variant dark (&:is(.dark *));
 
