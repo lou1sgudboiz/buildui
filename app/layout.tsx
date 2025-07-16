@@ -1,5 +1,5 @@
 import { JetBrains_Mono } from "next/font/google";
-import "./globals.css";
+import "@/styles/globals.css";
 import type { Metadata } from "next";
 import { ThemeProvider } from "@/components/theme-provider";
 

@@ -1,0 +1,29 @@
+.badge-shape-triangle {
+    clip-path: polygon(
+      10px 0%, calc(100% - 10px) 0%,
+      100% 50%,
+      calc(100% - 10px) 100%, 10px 100%,
+      0% 50%
+    );
+  }
+  
+  .badge-shape-ribbon-1 {
+    clip-path: polygon(
+      0px 0%, calc(100% - 10px) 0%,
+      100% 50%,
+      calc(100% - 10px) 100%, 0px 100%,
+      0% 50%
+    );
+  }
+  
+  
+  .badge-shape-ribbon-2 {
+    clip-path: polygon(
+      0 0,              
+      calc(100% - 10px) 0, 
+      100% 50%,         
+      calc(100% - 10px) 100%, 
+      0 100%,           
+      10px 50%    
+    );
+  }
